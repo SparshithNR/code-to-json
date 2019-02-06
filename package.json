@@ -18,7 +18,8 @@
     "lerna": "3.10.8",
     "nodemon": "1.18.9",
     "rimraf": "2.6.3",
-    "scripty": "1.9.0"
+    "scripty": "1.9.0",
+    "markdown-test": "SparshithNR/markdown-test#master"
   },
   "commitlint": {
     "extends": [
@@ -41,7 +42,8 @@
     "test": "lerna run test --parallel",
     "test:watch": "scripty",
     "lint": "lerna run lint --parallel",
-    "lint:watch": "scripty"
+    "lint:watch": "scripty",
+    "doc-test:util": "doc-test --file=packages/utils/README.md"
   },
   "repository": {
     "type": "git",
