@@ -19,7 +19,7 @@
     "nodemon": "1.18.9",
     "rimraf": "2.6.3",
     "scripty": "1.9.0",
-    "markdown-test": "SparshithNR/markdown-test#master"
+    "doc-tester": "SparshithNR/doc-tester#master"
   },
   "commitlint": {
     "extends": [
